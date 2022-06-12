@@ -13,8 +13,8 @@ hamburger.addEventListener("click", () => {
         footer.style.display ="none"
         mainContent.style.display = "none"
     }else{
-        removeStyle()
         hideModal()
+        removeStyle()
         footer.style.display ="block"
         mainContent.style.display = "block"
     }
@@ -32,8 +32,6 @@ function showModal(){
     modal.classList.add("show")
 }
 function hideModal(){
-    footer.classList.remove("show")
-    footer.classList.add("hide")
     modal.classList.add("hide");
     modal.classList.remove("show");
 }

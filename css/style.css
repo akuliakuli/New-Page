@@ -4,6 +4,7 @@
 }
 html {
   height: 100%;
+  background-color: #F5F5F5;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
   background-color: #F5F5F5;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+          margin: 0;
+          padding: 0;
 }
 
 ul {
@@ -1160,7 +1163,13 @@ a {
   .modal_menu_content h2 {
     font-size: 20px;
   }
+  .main_page_banner {
+    width: 100%;
+}
+.main_news_link {
+  width: 100%;
 
+}
 
 
   .modal_menu_content {
@@ -1269,11 +1278,18 @@ a {
   .modal_content_descr > * {
     font-size: 10px;
   }
-}
-@media (max-width: 300px) {
   .navbar_item_text {
     display: none;
   }
+  .navbar_item_title{
+    display:none;
+  }
+  .search{
+    display: none;
+  }
+}
+@media (max-width: 300px) {
+
 .main_course_box {
 
     padding: 5px;
@@ -1447,6 +1463,10 @@ main_course_title {
     height: fit-content;
   }
 }
+.footer_main{
+  display: none;
+}
+
 .show {
   display: block;
   text-decoration: none;
