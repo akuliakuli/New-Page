@@ -39,7 +39,7 @@ function hideModal(){
 }
 //SLIDER
 
-let slides = document.querySelectorAll(".main_slider"),
+let slides = document.querySelectorAll(".main_content_slider"),
     sliderBtns = document.querySelectorAll(".main_slider_button");
 
 
