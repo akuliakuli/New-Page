@@ -11,7 +11,7 @@
 <body>
     <div class="container-fluid header_container ">
       <div class="row header_navbar_main">
-        <div class="col-12 header_navbar_logo d-flex gap-2 d-flex flex-wrap justify-content-around align-items-center">
+        <div class="col-12 header_navbar_logo">
           <div class ="d-flex ">
             <a class="navbar-brand align-self-start" href="#"><img src ="img/Logo.png" class ="navbar_img"></a>
           <li class ="nav-item me-auto">
@@ -19,7 +19,6 @@
           <h2 class ="navbar_item_title">ЭНЕРГОЭФФЕКТИВНОСТЬ</h2>
         </li>
           </div>
-      <!-- <div class="col-sm-6 col-md-6 col-lg-4 header_navbar_menu d-flex justify-content-center align-items-center gap-3"> -->
           <div class =" d-flex justify-content-center align-items-center gap-4">
             <img src ="img/Vector.png" class ="img-fluid search">
             <li class =" navbar_search">
@@ -40,8 +39,6 @@
               Меню
             </li>
           </div>  
-    
-      <!-- </div> -->
     </div>
   </div>
 <div class="container-fluid modal_window">
@@ -436,11 +433,11 @@
           </div>
         </div>
       </div>
-      <div class="row main_partners_info d-flex flex-wrap justify-content-center">
+      <div class="row main_partners_info d-flex flex-wrap justify-content-around">
         <h2 class ="main_info_text text-start"style="color:#FFFFFF;">Мы гордимся</h2>
-        <div class="col-12 main_partners_title d-flex flex-wrap justify-content-around">
-          <h1>Наши партнеры</h1>
-          <h1>Отзывы</h1>
+        <div class="col-12 main_partners_title d-flex flex-wrap justify-content-evenly gap-5">
+          <h1 class= "main_partners_review">Наши партнеры</h1>
+          <h1 class ="main_partners_review first">Отзывы</h1>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-5 main_partners_boxes gap-4 ">
           <div class="main_partners_box d-flex justify-content-center align-items-center"><img src ="img/image 3.png"></div>
@@ -453,9 +450,12 @@
           <div class="main_partners_box d-flex justify-content-center align-items-center"><img src ="img/image 3(2).png"></div>
           <div class="main_partners_box d-flex justify-content-center align-items-center"><img src ="img/image 3.png"></div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-5 main_partners_reviews d-flex flex-wrap gap-2 align-self-center align-items-center justify-content-center">
-          <div class="main_review_box"></div>
-          <div class="main_review_box"></div>
+        <div class="col-sm-12 col-md-12 col-lg-5 main_partners_reviews d-flex flex-column flex-wrap gap-2 align-self-center align-items-center justify-content-center">
+          <h1 class= "main_partners_review second">Отзывы</h1>
+          <div class ="main_reviews d-flex flex-wrap justify-content-center align-items-center gap-2">
+            <div class="main_review_box"></div>
+            <div class="main_review_box"></div>
+          </div>
         </div>
       </div>
       <div class="row main_map_wrapper d-flex flex-wrap justify-content-center align-items-center">
